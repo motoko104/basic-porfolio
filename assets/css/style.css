@@ -26,38 +26,48 @@ h1{
 }
 .nav{
     position: absolute;
-    top:70px;
-    left: 75%;
+    top:20px;
+    left: 65%;
     margin-right: 10px;
     border-spacing: 5px 10px;
     z-index: 150;
 }
 li{
+    font-size: 24px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     display: inline;
+    padding: 7px;
 }
 a{
     text-decoration: none;
 }
-/*body{
-    position: relative;
+.about{
+    max-width: 960px;
+    position: absolute;
+    top:150px;
+    left: 25%;
+}
+body{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     background-image: url("background.png");
     background-repeat: repeat;
 }
-.about{
-    position: relative;
-    left: 25%;
-}
 .profile-image{
-
+    float: left;
     width: 300px;
     height: auto;
 }
 .about h2{
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
+}
+.about p{
+    position: relative;
+    left: 5%;
+    max-width: 600px;
+    padding: 10px;
 }
 /*footer{
     position: relative;
