@@ -1,6 +1,6 @@
-/*{
+*{
     box-sizing: border-box;
-}*/
+}
 header{
     background-color: #ffffff;
     border-color: #cccccc;
@@ -9,9 +9,7 @@ header{
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 100px;
     padding: 0px 0px 0px 0px;
-    border-width: 0px 0px 5px 0px;
     z-index: 50;
 }
 h1{   
@@ -19,18 +17,18 @@ h1{
     color: white;
     font-family: 'Georgia', Times, Times New Roman, serif;
     position: relative;
-    top: -21.5px;
-    left: 25%; 
-    height: 40px;  
+    top: 0px;
+    left: 194.5px;   
     width: 300px;
     text-align: center;
-    padding: 30px 0px 30px 0px;
+    padding: 19px;
+    margin: 0;
     z-index: 100;
 }
-.nav{
+nav{
     position: absolute;
     top:20px;
-    left: 63%;
+    left: 830px;
     margin-right: 10px;
     border-spacing: 5px 10px;
     z-index: 150;
@@ -51,8 +49,8 @@ a{
     width: 960px;
     position: absolute;
     background-color: #ffffff;
-    top:100px;
-    left: 25%;
+    top: 100px;
+    left: 194.5px;
     margin: 40px 0px;
 }
 body{
@@ -60,6 +58,8 @@ body{
     color: #777777;
     background-image: url("background.png");
     background-repeat: repeat;
+    height: 100%;
+    margin: 0;
 }
 .profile-image{
     float: left;
@@ -79,25 +79,102 @@ body{
 }
 .about p{
     position: relative;
-    float: left;
-    max-width: 600px;
+    text-align: left;
+    text-indent: 40px;
+    padding: 30px;
+    line-height: 2;
+}
+.contact-form{
+    position: absolute;
+    top: 100px;
+    width: 960px;
     padding: 5px;
+    border-style: solid;
+    border-width: 0px 0px 5px 0px;
+    border: #4aaaa5;
+    margin: 40px 0px;
+    background-color: #ffffff;
+    left: 194.5px;
+}
+.contact-form h2{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    padding: 15px 10px;
+    margin: 10px 15px 10px ;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 0px 0px 2px 0px;
+}
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    line-height: 2.5;
+}
+input, textarea {
+    position: relative;
+    left: 30px;
+    font: 1.1em sans-serif;
+    width: 900px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+}
+textarea{
+    vertical-align: top;
+    height: 7em;
+}
+.button{
+    padding: 10px 30px;
+}
+button{
+    margin-left: .75em;
+    border: none;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 30px;
+}
+.portfolio{
+    width: 960px;
+    position: absolute;
+    background-color: #ffffff;
+    top: 100px;
+    left: 194.5px;
+    margin: 40px 0px;
+}
+.portfolio h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    padding: 15px 10px;
+    margin: 10px 15px 10px ;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 0px 0px 2px 0px;
+}
+.portfolio img{
+    float: left;
+    width: 325px;
+    height: 275PX;
+    padding: 40px;
 }
 footer{
     position: fixed;
-    top: 90%;
+    bottom: 0;
     width: 100%;
     height: 60px;
+    margin-top: -50px;
     left: 0px;
     background-color: #666666;
     color: #cccccc;
     border-style: solid;
     border-top-color: #4aaaa5;
-    border-width: 20px 0px 0px 0xp;
+    border-width: 5px;
 }
 small{
     position: relative;
-    top: 30px;
+    top: 11px;
     left: 50%;
     text-align: center;
 }
