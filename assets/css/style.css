@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    line-height: 1;
 }
 header{
     background-color: #ffffff;
@@ -45,7 +46,7 @@ li{
 }
 li:hover{
     color: white;
-    background-color: #19fff3;
+    background-color: #ade9e6;
 }
 a{
     text-decoration: none;
